@@ -1,0 +1,34 @@
+h1{
+    text-align: center; text-decoration: underline;
+}
+#photo{
+    margin: 0 auto;
+}
+nav.navbar {
+    background-color: #61c2f2 !important;
+    height: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#barra{
+    background-color: aquamarine !important;
+}
+.fondo{
+    background-image: url(https://valparaisoregion.org/wp-content/uploads/2021/02/Villa-Alemana.jpg) !important;
+}
+#bar{
+    text-align: justify;
+}
+.row{
+    text-align: center;
+}
+.row g-3{
+    display: block;
+}
+.container{
+    text-align: center;
+    max-width: 700px !important;
+    margin-top: 5rem;
+}
+#carouselExampleIndicators{
+    max-width: 50rem;
+}
