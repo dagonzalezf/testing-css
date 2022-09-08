@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio MundosE</title>
+    <style>
+        h1,
+        h2,
+        p {
+            text-align: center;
+            background-color: cornflowerblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Ejercicio HTML 2</h1><br>
+    <p>Este es un párrafo de texto</p><br>
+    <h2><iframe width="560" height="315" src="https://www.youtube.com/embed/mNbnV3aN3KA?start=1" title="Curso HTML"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe></h2><br>
+
+    <title>Formulario HTML2</title><br>
+    <script>
+        const form= document.forms[0];
+        form.addEventListener('submit', function (event){
+            event.preventDefault();
+            let data = new FormData(form);
+            console.log(form);
+            console.log(data);
+        }) 
+    </script>
+    <main>
+        <h4>Login</h4><br>
+        <form action="">
+            <label for="user">
+                Usuario
+                <input type="text" id="user" required>
+            </label>
+            <label for="passwrd">
+                Contraseña
+                <input type="password" id="passwrd" required>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <script src=""></script>
+</body>
+
+</html>
